@@ -23,6 +23,7 @@ function Nav({user, handleUserLogout}) {
               </Link>
               ):(
                 <Link 
+                  to='/profile'
                   style={{
                     textDecoration: 'none', 
                     color: 'white', 
